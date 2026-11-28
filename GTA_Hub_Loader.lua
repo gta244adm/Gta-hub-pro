@@ -6,7 +6,7 @@
 -- Isso NAO e um loadstring de terceiro: e o proprio GTA Hub, so que hospedado
 -- fora pra nao precisar colar o arquivo gigante toda vez.
 
-local GTA_HUB_URL = "https://raw.githubusercontent.com/gta244adm/Gta-hub-pro/refs/heads/main/GTA_Hub_Obfuscado.lua"
+local GTA_HUB_URL = "https://raw.githubusercontent.com/gta244adm/Gta-hub-pro/refs/heads/main/GTA_Hub_Admin_Reestruturado_20_ofuscado.txt"
 
 local function GTA_LoadHub()
     local ok, body = pcall(function()
