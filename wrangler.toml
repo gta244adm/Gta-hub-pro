@@ -12,4 +12,4 @@ new_sqlite_classes = ["RelayRoom"]
 
 [[kv_namespaces]]
 binding = "GTA_BANS"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "b098f6add99442d7b5f9fe5831d74677"
