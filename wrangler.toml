@@ -1,0 +1,15 @@
+name = "gta-hub-admin-relay"
+main = "GTA_Admin_Relay_Worker.js"
+compatibility_date = "2026-11-27"
+
+[[durable_objects.bindings]]
+name = "GTA_ADMIN_ROOM"
+class_name = "RelayRoom"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["RelayRoom"]
+
+[[kv_namespaces]]
+binding = "GTA_BANS"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
